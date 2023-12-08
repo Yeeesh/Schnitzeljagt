@@ -1,0 +1,52 @@
+.textfeld{
+    height: 44%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfelddown{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.textfeldtop{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.text{
+    font-size:80px;
+    color: black;
+    text-align: center;
+    font-family: fantasy
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.bground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background: linear-gradient(45deg, #fbf0f9, #fcaccc);
+}
