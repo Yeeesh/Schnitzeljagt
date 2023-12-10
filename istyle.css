@@ -6,28 +6,6 @@
     align-items: center;
 }
 
-.textfelddown{
-    height: 10%;
-    width: 100%;
-    position: absolute;
-    bottom: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-}
-
-.textfeldtop{
-    height: 10%;
-    width: 100%;
-    position: absolute;
-    top: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-}
-
 .text{
     font-size:80px;
     color: black;
@@ -37,6 +15,7 @@
 a{
     color: black;
     text-decoration: none;
+    border-radius: 50%;
 }
 .bground{
     display: flex;
