@@ -1,55 +1,40 @@
 .lvlcontainer{
     background-color: white;
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content:center;
+    margin: 80px;
 }
 .lvltext{
-    font-size: 50px;
+    font-size: 60px;
 }
 
-/*.lvlcontainer{
-    background-color: white;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+a{
+    color: black;
+    text-decoration: none;
 }
 
-.lvlbutton{
-    height: 180px;
-    width: 170px;
-    position: absolute;
-    right: 10px;
-    font-size: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text{
+    font-size:80px;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
 }
 
-.lvltext{
-    font-size: 100px;
-    position: absolute;
-    left: 100px;
-}
-
-.lvlbuttona{
-    height: 180px;
-    width: 170px;
-}*/
-
-body{
+.bground{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 50px;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     overflow: auto;
-    background-color: gray;
+    background: linear-gradient(45deg, #fbf0f9, #fcaccc);
 }
