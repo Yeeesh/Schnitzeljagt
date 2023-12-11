@@ -61,8 +61,11 @@
 .puzzletxt{
     font-size:50px;
     text-align: center;
-    height: auto;
-    width: auto;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
